@@ -8,8 +8,8 @@ machine1.start();
 Person person1 = new Person("Lily");
 person1.greet();
 
-Info info1 = new Machine();
-info1.showInfo();
+Info info1 = new Machine(); // Illustrate possible usage of Info Interface as a Type, like a Class
+info1.showInfo(); // the created object of Type Machine is assigned to a variable of type Info, and the method in Info Interface can be called on it
 }
 
 }
