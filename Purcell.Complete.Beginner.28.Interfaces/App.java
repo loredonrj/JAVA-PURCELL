@@ -7,6 +7,9 @@ machine1.start();
 
 Person person1 = new Person("Lily");
 person1.greet();
+
+Info info1 = new Machine();
+info1.showInfo();
 }
 
 }

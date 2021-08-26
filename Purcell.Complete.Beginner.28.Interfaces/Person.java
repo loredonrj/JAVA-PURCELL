@@ -1,4 +1,4 @@
-public class Person {
+public class Person implements Info {
   
   private String name;
 
@@ -10,4 +10,10 @@ public class Person {
     System.out.println("Greetings!");
   }
 
+  @Override
+  public void showInfo() {
+    System.out.println("Person name is" + name);    
+  }
+
+  
 }
